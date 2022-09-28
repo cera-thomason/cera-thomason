@@ -1,25 +1,19 @@
-.primary {
-    color: #f48fb1;
-}
+/*
+primary color: #f48fb1;
+primary light color: #ffc1e3;
+primary dark color: #bf5f82;
+accent color: #445963;
+accent light color: #708690;
+accent dark color: #1b3039;
+*/
 
-.primaryLight {
-    color: #ffc1e3;
-}
-
-.primaryDark {
-    color: #bf5f82;
-}
-
-.accent {
-    color: #445963;
-}
-
-.accentLight {
-    color: #708690;
-}
-
-.accentDark {
-    color: #1b3039;
+.navBar {
+    height: 80px;
+    width: 100vw;
+    background-color: #f48fb1;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .profilePic {
@@ -28,4 +22,5 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
